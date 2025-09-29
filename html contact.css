@@ -1,6 +1,4 @@
-
 /*header*/
-
 header {
     position: fixed;
     top: 0;
@@ -19,7 +17,7 @@ header {
     justify-content: space-between;
 }
 header img {
-    width: 50px;
+    width: 100px;
     height: auto;
     transition: 0.3s ease-in-out;
 }
@@ -28,22 +26,16 @@ header img:hover {
     transform: scale(1.05);
 }
 
-header .menu {
-    display: flex;
-    gap: 78px;
-}
 
-header .menu a {
-    text-decoration: none;
-    font-size: 16px;
-    padding : 10px;
-    transition: 0.3s ease-in-out;
-}
 
-header .menu a:hover {
-    transform: scale(1.05);
+#contact {
     border-radius: 6px;
+    background-color: red;
 }
+   
+    
+
+
 
 #contact {
     border-radius: 6px;
@@ -122,8 +114,6 @@ h2 {
 
 
 
-
-
 /*Polices*/
 
 @font-face {
@@ -131,8 +121,12 @@ h2 {
     src: url('../font/Poppins-Regular.ttf') format('truetype');
 }
 
-@media (max-width: 1024px){
-    header{
-       display: none;
-    }
+
+
+footer {
+  color: white; /* Texte en blanc */
+  background-color: #070320; /* Fond sombre pour le contraste */
+  font-family: Arial, sans-serif; /* Police personnalisable */
+  padding: 20px;
+  text-align: center;
 }

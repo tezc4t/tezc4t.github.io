@@ -1,0 +1,132 @@
+/*header*/
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+
+.header-container{
+    padding: 0 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img {
+    width: 100px;
+    height: auto;
+    transition: 0.3s ease-in-out;
+}
+
+header img:hover {
+    transform: scale(1.05);
+}
+
+
+
+#contact {
+    border-radius: 6px;
+    background-color: red;
+}
+   
+    
+
+
+
+#contact {
+    border-radius: 6px;
+    background-color: red;
+}
+
+/*couleurs fond + texte*/
+
+body {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    padding-top: 80px;
+}
+
+
+
+p {
+    color: rgb(0, 0, 0);
+}
+h1 {
+    color: rgb(0, 0, 0);
+}
+a {
+    color: rgb(0, 0, 0);
+}
+h2 {
+    color: rgb(0, 0, 0);
+}
+h3 {
+    color: rgb(0, 0, 0);
+}
+
+label {
+    color: rgb(0, 0, 0);
+}
+
+
+
+/*Titre*/
+
+.titre {
+    margin: 100px auto 50px auto;
+    width: 80%; 
+    text-align: center;
+}
+
+.titre h3 {
+    font-size: 33px;
+}
+
+.titre p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+
+
+/*Infos*/
+
+.infos {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+
+/*Formulaire*/
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 64px;
+}
+
+
+
+/*Polices*/
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../font/Poppins-Regular.ttf') format('truetype');
+}
+
+
+
+footer {
+  color: rgb(0, 0, 0); /* Texte en blanc */
+  background-color: #ffffff; /* Fond sombre pour le contraste */
+  font-family: Arial, sans-serif; /* Police personnalisable */
+  padding: 20px;
+  text-align: center;
+}

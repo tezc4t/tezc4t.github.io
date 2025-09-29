@@ -1,1 +1,1 @@
-B1 student project at the request of a Product Owner from Esiee-IT / Cergy in France
+folder containing all the CSS files of the B1 Website project
